@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    background-color: #347aeb;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.padding {
+    padding-right: 10px;
+    /* text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: 0 10px 0 10px; */
+}
+
+.logout {
+    padding-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: 0 10px 0 10px;
+}
+
+.logout:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.filters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filters select {
+    width: 100px;
+}
+
+.transactions {
+    margin-top: 60px;
+}
+
+.transactions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15438c;
+    height: 80px;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.transactions-header :nth-child(2) {
+    display: flex;
+}
+
+/* .modal-footer {
+    background-color: aqua;
+}
+
+.modal-header {
+    background-color: blueviolet;
+}
+
+.modal-body {
+    background-color: cornflowerblue;
+
+} */
+
+.modal {
+    margin-top: 3%;
+
+}
+
+#expenseModal {
+    margin: 1% !important;
+}
+
+
+/* .logout{
+    text-decoration: nonep;
+} */
+
+
+/* =========================================================================
+                            Transaction Table
+============================================================================*/
+
+.row>th{
+    text-align: center;
+}
+
+
+
+
+/* FIle Upload */
+#upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
